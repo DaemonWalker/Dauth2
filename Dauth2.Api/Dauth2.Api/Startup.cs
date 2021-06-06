@@ -45,7 +45,6 @@ namespace Dauth2.Api
                 options.EmitStaticAudienceClaim = true;
             });
 
-            buidler.
 
             services.AddSingleton(new FreeSqlBuilder().UseConnectionString(DataType.SqlServer, "").UseAutoSyncStructure(true).Build());
 
